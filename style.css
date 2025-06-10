@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-between;
     padding: 20px 250px;        /*maybe use an empty div and scale with flex to grow and shrink accordingly*/
-}
+} /* can also just put the content all in 1 div that has a set width,  and centered. Shrinks?*/
 
 .header .logo {
     color: #f9faf8;
@@ -26,3 +26,44 @@
     font-size: 18px;
     color: #e5e7eb;
 }
+
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 250px;
+    gap: 50px;
+    
+}
+
+.hero .left {
+    /* width: 450px; */
+}
+
+.hero img {
+    
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;    
+}
+
+.hero-sub {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 15px;
+}
+
+.hero .left button {
+    background-color: #3882f6;
+    color: #ffffff;
+    padding: 5px 15px;
+}
+
+.hero img {
+
+}
+
