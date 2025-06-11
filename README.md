@@ -16,6 +16,6 @@ some content would completely change or how multiple butttons would collapse und
 menu button when you zoom in enough. I think this has something to do with "mobile website" vs "desktop website" designs and how you can have two layouts for your website to switch between, 
 and I am eager to learn how to do that soon.
 
-Things I want to add: 
+Other things added: 
 - make information icons pop on hover, growing larger but centered
 - greatly adjust scaling to match 125% zoom at default
