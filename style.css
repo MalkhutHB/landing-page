@@ -8,8 +8,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding: 20px 250px;        maybe use an empty div and scale with flex to grow and shrink accordingly */
-} /* can also just put the content all in 1 div that has a set width,  and centered. Shrinks?*/
+}
+    /*maybe use an empty div and scale with flex to grow and shrink this fake "padding" accordingly*/
+    /*can also just put the content all in 1 div that has a set width,  and centered. Shrinks?*/ /*did this, minus the shrinking*/
 
 .header .inner {
     display: flex;
@@ -94,7 +95,7 @@
     display: flex;
     justify-content: center;
     gap: 40px;
-    margin-bottom: 125px;
+    margin-bottom: 105px;
 }
 
 .icon {
@@ -131,19 +132,19 @@
 .quote {
     display: flex;
     justify-content: center;
-    padding: 150px 0px; 
+    padding: 135px 0px 100px; 
     background-color: #e5e7eb;
     color: #1f2937;
 }
 
 .quote .inner {
-    width: 880px;
+    width: 850px;
     display: flex;
     flex-direction: column;
 }
 
 .quote .text {
-    font-size: 40px;
+    font-size: 38px;
     font-weight: 200;
     font-style: italic;
     
@@ -205,5 +206,6 @@
 
 .footer .text {
     color: #f9faf8;
-    margin: 50px 0px;
+    font-size: 18px;
+    margin: 42px 0px;
 }
