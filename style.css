@@ -8,8 +8,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* position: sticky;
-    top: 0px; */
+    position: sticky;
+    top: 0px; 
 }
     /*maybe use an empty div and scale with flex to grow and shrink this fake "padding" accordingly*/
     /*can also just put the content all in 1 div that has a set width,  and centered. Shrinks?*/ /*did this, minus the shrinking*/
