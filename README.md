@@ -15,3 +15,7 @@ inspiration, such as apple.com and developer.mozilla.org. I also noticed on both
 some content would completely change or how multiple butttons would collapse under a single 
 menu button when you zoom in enough. I think this has something to do with "mobile website" vs "desktop website" designs and how you can have two layouts for your website to switch between, 
 and I am eager to learn how to do that soon.
+
+Things I want to add: 
+- make information icons pop on hover, growing larger but centered
+- greatly adjust scaling to match 125% zoom at default

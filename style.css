@@ -18,13 +18,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1030px;
-    height: 70px;
+    width: 1280px;
+    height: 78px;
 }
 
 .header .logo {
     color: #f9faf8;
-    font-size: 24px;
+    font-size: 30px;
 }
 
 .header .links {
@@ -35,7 +35,7 @@
 
 .header .links a {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 22px;
     color: #e5e7eb;
 }
 
@@ -50,39 +50,39 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px 0px 130px;
+    padding: 130px 0px 170px;
 }
 
 .hero .inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1030px;
-    height: 235px;
-    gap: 50px;
+    width: 1280px;
+    height: 292px;
+    gap: 55px;
 }
 
 .hero-text {
-    font-size: 48px;
+    font-size: 60px;
     font-weight: 900;
     color: #f9faf8;    
 }
 
 .hero-sub {
-    font-size: 18px;
+    font-size: 23px;
     color: #e5e7eb;
     margin-top: 5px;
-    margin-bottom: 15px;
+    margin-bottom: 16px;
 }
 
 .hero .left button {
     background-color: #3882f6;
     color: #ffffff;
     font-weight: 700;
-    font-size: 18px;
-    padding: 10px 35px;
+    font-size: 22px;
+    padding: 11px 43px;
     border: none;
-    border-radius: 9px;
+    border-radius: 11px;
 }
 
 .hero .left button:hover {
@@ -90,15 +90,15 @@
 }
 
 .hero img {
-    width: 552px;
-    height: 235px;
+    width: 686px;
+    height: 292px;
 }
 
 .info .section-header {
     display: flex;
     justify-content: center;
-    padding: 50px 50px 0px;
-    font-size: 36px;
+    padding: 60px 0px 0px;
+    font-size: 45px;
     font-weight: 900;
     color: #1f2937;
 }
@@ -106,12 +106,12 @@
 .icons {
     display: flex;
     justify-content: center;
-    gap: 50px;
-    margin-bottom: 125px;
+    gap: 60px;
+    margin-bottom: 150px; /*interesting*/
 }
 
 .icon {
-    width: 170px;
+    width: 211px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -119,9 +119,9 @@
 
 .icon .subtext {
     margin: 0px 0px 8px;
-    color: #777777;
+    color: #686868;
     font-weight: 550;
-    font-size: 18px;
+    font-size: 22px;
     text-align: center;
 }
 
@@ -146,56 +146,57 @@
     box-sizing: border-box;
     border-style: solid;
     border-color: #3882f6;
-    border-radius: 15px;
+    border-radius: 20px;
     border-width: 5px;
-    width: 170px;
-    height: 170px;
-    margin-top: 50px;
+    width: 210px;
+    height: 210px;
+    margin-top: 60px;
     margin-bottom: 8px;
     overflow: hidden;
 }
 
 .square:hover {
-    width: 180px;
-    height: 180px;
-    margin-top: 40px;
+    width: 220px;
+    height: 220px;
+    margin-top: 55px;
+    margin-bottom: 3px;
     box-shadow: 0px 3px 10px 0px #777777;
 }
 
 .quote {
     display: flex;
     justify-content: center;
-    padding: 135px 0px 110px; 
+    padding: 165px 0px 145px; 
     background-color: #e5e7eb;
     color: #1f2937;
 }
 
 .quote .inner {
-    width: 800px;
+    width: 945px;
     display: flex;
     flex-direction: column;
 }
 
 .quote .text {
-    font-size: 36px;
+    font-size: 43px;
     font-weight: 200;
     font-style: italic;
 }
 
 .quote .name {
     font-weight: 700;
-    font-size: 24px;
+    font-size: 29px;
     text-align: right;
     padding-right: 20px;
 }
 
 .banner {
     background-color: #3882f6;
-    width: 800px;
+    width: 980px;
     height: 50px;
     border-radius: 10px;
-    margin: 100px auto;
-    padding: 50px 120px 53px;
+    margin: 125px auto;
+    padding: 69px 150px 69px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -203,14 +204,14 @@
 
 .banner .left .a {
     color: #ffffff;
-    font-size: 23px;
+    font-size: 29px;
     font-weight: 800;
     margin-bottom: 5px;
 }
 
 .banner .left .b {
     color: #ffffff;
-    font-size: 18px;
+    font-size: 23px;
     font-weight: 300;
     margin-bottom: 0;
     padding-bottom: 0;
@@ -222,10 +223,10 @@
     border-color: #ffffff;
     border-style: solid;
     border-radius: 8px;
-    font-size: 18px;
+    font-size: 23px;
     font-weight: 700;
-    height: 38px;
-    width: 130px;
+    height: 45px;
+    width: 160px;
     margin-bottom: 0;
     padding-bottom: 0;
 }
@@ -243,6 +244,6 @@
 
 .footer .text {
     color: #f9faf8;
-    font-size: 18px;
-    margin: 42px 0px;
+    font-size: 22px;
+    margin: 50px 0px;
 }
