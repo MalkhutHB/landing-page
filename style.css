@@ -94,28 +94,28 @@
 .icons {
     display: flex;
     justify-content: center;
-    gap: 40px;
-    margin-bottom: 105px;
+    gap: 50px;
+    margin-bottom: 125px;
 }
 
 .icon {
-    width: 200px;
+    width: 170px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .icon .subtext {
-    margin: 10px 0px;
+    margin: 8px 0px;
     color: #777777;
     font-weight: 550;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
 }
 
 .icon img {
-    width: 167px;
-    height: 167px;
+    width: 153px;
+    height: 153px;
     border-radius: 10px;
 }
 
@@ -124,46 +124,45 @@
     border-style: solid;
     border-color: #3882f6;
     border-radius: 15px;
-    border-width: 4px;
-    width: 175px;
-    height: 175px;
+    border-width: 5px;
+    width: 170px;
+    height: 170px;
 }
 
 .quote {
     display: flex;
     justify-content: center;
-    padding: 135px 0px 100px; 
+    padding: 135px 0px 110px; 
     background-color: #e5e7eb;
     color: #1f2937;
 }
 
 .quote .inner {
-    width: 850px;
+    width: 800px;
     display: flex;
     flex-direction: column;
 }
 
 .quote .text {
-    font-size: 38px;
+    font-size: 36px;
     font-weight: 200;
     font-style: italic;
-    
 }
 
 .quote .name {
     font-weight: 700;
-    font-size: 25px;
+    font-size: 24px;
     text-align: right;
     padding-right: 20px;
 }
 
 .banner {
     background-color: #3882f6;
-    width: 900px;
+    width: 800px;
     height: 50px;
     border-radius: 10px;
     margin: 100px auto;
-    padding: 50px 100px;
+    padding: 50px 120px 53px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -171,8 +170,9 @@
 
 .banner .left .a {
     color: #ffffff;
-    font-size: 24px;
+    font-size: 23px;
     font-weight: 800;
+    margin-bottom: 5px;
 }
 
 .banner .left .b {
@@ -189,10 +189,10 @@
     border-color: #ffffff;
     border-style: solid;
     border-radius: 8px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
-    height: 50px;
-    width: 150px;
+    height: 38px;
+    width: 130px;
     margin-bottom: 0;
     padding-bottom: 0;
 }
