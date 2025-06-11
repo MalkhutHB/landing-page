@@ -176,3 +176,15 @@
     margin-bottom: 0;
     padding-bottom: 0;
 }
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .text {
+    color: #f9faf8;
+    margin: 50px 0px;
+}
