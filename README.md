@@ -19,3 +19,4 @@ and I am eager to learn how to do that soon.
 Other things added: 
 - make information icons pop on hover, growing larger but centered
 - greatly adjust scaling to match 125% zoom at default
+- sticky header
